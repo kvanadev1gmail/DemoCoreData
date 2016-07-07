@@ -15,6 +15,7 @@
 		3745C95C1D2BAF5400CB9676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3745C95A1D2BAF5400CB9676 /* LaunchScreen.storyboard */; };
 		3745C9671D2BAF5400CB9676 /* DemoCoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3745C9661D2BAF5400CB9676 /* DemoCoreDataTests.swift */; };
 		3745C9721D2BAF5400CB9676 /* DemoCoreDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3745C9711D2BAF5400CB9676 /* DemoCoreDataUITests.swift */; };
+		3745C9801D2BD12600CB9676 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3745C97F1D2BD12600CB9676 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3745C96D1D2BAF5400CB9676 /* DemoCoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoCoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3745C9711D2BAF5400CB9676 /* DemoCoreDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCoreDataUITests.swift; sourceTree = "<group>"; };
 		3745C9731D2BAF5400CB9676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3745C97F1D2BD12600CB9676 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				3745C94E1D2BAF5300CB9676 /* AppDelegate.swift */,
 				3745C9501D2BAF5300CB9676 /* ViewController.swift */,
+				3745C97F1D2BD12600CB9676 /* Person.swift */,
 				3745C9521D2BAF5300CB9676 /* Main.storyboard */,
 				3745C9581D2BAF5400CB9676 /* Assets.xcassets */,
 				3745C95A1D2BAF5400CB9676 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				3745C9511D2BAF5300CB9676 /* ViewController.swift in Sources */,
 				3745C9571D2BAF5300CB9676 /* DemoCoreData.xcdatamodeld in Sources */,
+				3745C9801D2BD12600CB9676 /* Person.swift in Sources */,
 				3745C94F1D2BAF5300CB9676 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
